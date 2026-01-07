@@ -1,8 +1,26 @@
 [project]
-name = "kkalssam-python-template"
+name = "dat"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.11"
 dependencies = [
+    "addict",
+    "einops",
+    "future",
+    "h5py",
+    "lmdb",
+    "numpy>=1.17",
+    "opencv-python",
+    "Pillow",
+    "pyyaml",
+    "requests",
+    "scikit-image",
+    "scipy",
+    "tensorboard",
+    "timm",
+    "torch>=2.0",
+    "torchvision",
+    "tqdm",
+    "yapf",
 ]
